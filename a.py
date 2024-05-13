@@ -15,7 +15,7 @@ import math
 st.title('Şube Workload Forecast ve Çalışan Sayısı Prediction ')
 
 branches = [11, 12, 13, 14, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 46]
-file_path = './Sabancı Servis Verisi.xlsx.csv'  #Buraya kendi file path'ini ekle #
+file_path = './Sabancı Servis Verisi.xlsx.xlsx'  #Buraya kendi file path'ini ekle #
 df = pd.read_excel(file_path)
 df['Date'] = pd.to_datetime(df['Kaydı Üzerine Alma Tarihi']).dt.date
 
